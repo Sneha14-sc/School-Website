@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spring Flowers School welcome page</title>
+    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico.png" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav
+        class="px-4 navbar navbar-expand-lg text-dark fixed-top shadow"
+        style="background-color: #a6f1fc"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html"
+            ><img src="../assets/logo.png" height="60" alt="logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div
+              class="navbar-nav text-black fw-semibold"
+              style="font-size: 1.1rem"
+            >
+              <a class="nav-link active" aria-current="page" href="home.html"
+                >Home</a
+              >
+              <a class="nav-link" href="timetable.html">Time Table</a>
+              <a class="nav-link" href="examResult.html">Exam Result</a>
+              <a class="nav-link" href="extraActivity.html">Extra Activity</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              id="studentName"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            ></button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+              <li onclick="logout()">
+                <a class="dropdown-item" href="index.html">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="bg-image">
+      
+      <div class="head-text">
+        <h1 class="main-head">
+          Intelligence plus character that is the goal of true education
+        </h1>
+        <br />
+        <h6 class="shadow m-auto bg-body-secondary p-1 w-auto text-center lh-1">
+          A movement from darkness towards light
+        </h6>
+        <br /><br />
+        <a href="#info" class="w-auto btn btn-info">Read More</a>
+      </div>
+    </section>
+    </header>
+    <main
+      class="text-center p-5"
+      style="background-color: rgba(151, 198, 206, 0.637)"
+    >
+      <h1 class="fs-1 fw-bolder">Welcome to Spring Flowers School !</h1>
+      <hr />
+      <br />
+      <section class="row ">
+        <div class="col-12 col-xl-6">
+          <img
+            class="img-fluid pt-2 rounded-4"
+            src="../assets/schoolImg.jpg"
+            alt="school-img"
+          />
+          <h5 class="text-dark-emphasis">Aura of Spring Flowers School</h5>
+        </div>
+
+        <div class="col-12 col-xl-6">
+          <br />
+          <h2 class="text-start fw-bold text-info-emphasis">About Us:</h2>
+          <p class="text-start float-sm-start">
+            Built up in 1964, ‘Spring Flowers’ is one of the most established
+            English language schools in India. The school was established in
+            ‘Minati, Uttarakhand’ Village by Rajni Prakash and she started by
+            instructing English to abroad understudies who were living and
+            working locally. <br />By the mid 1970s, the school was successful
+            to the point that we expected to discover bigger premises. It was
+            then that we moved down the slope to our present location at 41
+            Central Street. <br />Picking the correct English language school
+            can be extremely troublesome however there are only a couple of
+            reasons why organization name is broadly viewed as the Joint Number
+            1 language school in the India.* We are focused on helping you
+            accomplish your language objectives and in the event that you don’t
+            advance as fast as you should, we are here to help. Outside the
+            classroom, we offer free scholastic conferences, guided self-study,
+            and hands-on learning support. <br />All we ask of you consequently
+            is that you go to all classes and complete the homework set by your
+            educators. We are a genuine, scholastic school utilizing exceedingly
+            proficient staff. Our motivation is to give quality support to every
+            one of our clients in an inviting and minding condition. <br />We
+            expect to guarantee that each understudy’s stay is both beneficial
+            and agreeable and that every one of our understudies enhances their
+            English language aptitudes, gain knowledge into British life and
+            culture and furthermore improve their insight and comprehension of
+            different societies.
+          </p>
+        </div>
+      </section>
+      <br />
+      <section>
+        <h2 id="info" class="text-start fw-bold text-info-emphasis">
+          Facilities:
+        </h2>
+        <p class="text-start">The school campus offers a learner-friendly environment with a fine blend of functionality and aesthetics. CCTV surveillance system, wide corridors and stairwells, fire prevention system, and deployment of security personnel are among the several safety and security measures taken by the School to ensure a safe campus environment.</p>
+        <ul class="text-start">
+          <li class="points">Spacious and well-ventilated classrooms</li>
+          <li class="points">Skilled Teachers</li>
+          <li class="points">
+            Physics, Chemistry, Biology, Computer and General Science
+            Laboratories
+          </li>
+          <li class="points">Libraries have a vast collection of books</li>
+          <li class="points">Music Room and Dance Studio</li>
+          <li class="points">Activity Rooms</li>
+          <li class="points">Amphitheatre, MultiPurpose Hall</li>
+          <li class="points">Outdoor Play Areas</li>
+          <li class="points">Cafeteria</li>
+          <li class="points">School Transport</li>
+        </ul>
+      </section>
+      <section id="list" class="text-start">
+        <h2 id="info" class="text-start fw-bold text-info-emphasis">
+          List of Extra Activities:
+        </h2>
+        <dl id="activityList" class="fs-4">
+        </dl>
+      </section>
+    </main>
+    <footer
+      class="inline p-2"
+      style="background-color: rgb(166, 241, 252); text-align: center"
+    >
+      copyright &#169; Spring_Flowers_School by Sneha Choudhari
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/myScript.js"></script>
+    <script>
+      let uname = sessionStorage.getItem("username");
+      document.getElementById("studentName").innerHTML =
+        uname !== null ? uname : "Student Name";
+
+        //list of extra activities
+        listActivity();
+    </script>
+    
+  </body>
+</html>

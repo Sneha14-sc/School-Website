@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spring Flowers School-Extra Activity</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body >
+  <header>
+    <nav class="px-4 navbar navbar-expand-lg text-dark fixed shadow" style="background-color: rgb(166, 241, 252);">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="home.html"><img src="../assets/logo.png" height="60" alt="logo"/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav text-black fw-semibold" style="font-size: 1.1rem;">
+              <a class="nav-link" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link" href="timetable.html">Time Table</a>
+              <a class="nav-link" href="examResult.html">Exam Result</a>
+              <a class="nav-link active" href="extraActivity.html">Extra Activity</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" id="studentName" data-bs-toggle="dropdown" aria-expanded="false">
+             
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="profile.html">Profile</a></li>
+              <li onclick="logout()"><a class="dropdown-item" href="index.html">Logout</a></li>
+            </ul>
+        </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main
+      class="form-section"
+      style="background-color: rgba(151, 198, 206, 0.637);"
+    >
+      <h1 class="text-info-emphasis">Extra Activities</h1>
+      <br />
+      <section class="result-container mx-auto">
+        <form>
+          <div class="input-group mb-3">
+            <span class="input-group-text bg-transparent border-3 text-secondary fw-bold">Name</span>
+            <input
+              type="text"
+              class="form-control bg-body-secondary text-info-emphasis"
+              aria-label="activityName"
+              aria-describedby="activityName"
+              id="activityName"
+            />
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text bg-transparent border-3 text-secondary fw-bold">Details</span>
+            <textarea
+              type="text"
+              class="form-control bg-body-secondary text-info-emphasis"
+              aria-label="activityDetails"
+              aria-describedby="activityDetails"
+              id="activityDetails"
+            >
+          </textarea>
+        </div>
+          <input type="submit" class="btn btn-info" onclick="addActivity()" value="Submit"/>
+        </form>
+      </section>
+    </main>
+    
+    <footer class="inline p-2" style="background-color: rgb(166, 241, 252); text-align: center; ">
+      copyright 	&#169; Spring_Flowers_School by Sneha Choudhari
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+    <script>
+      let uname=sessionStorage.getItem("username");
+      document.getElementById("studentName").innerHTML = uname !==null ? uname : "Student Name";
+    </script>
+     <script src="./js/myScript.js"></script>
+    </body>
+    </html>

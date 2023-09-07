@@ -1,0 +1,91 @@
+{
+    "student":[
+        {
+            "id":"SF_1012",
+            "username": "John Kennedy",
+            "password":"John456*",
+            "class":"5",
+            "section":"A",
+            "academic_year": "2022",
+            "gender": "Male",
+            "blood":"B+",
+            "dob":"2013-08-19",
+            "address":"201 Clint Dr, Pickerington, Ohio, United States-43147",
+            "email":"johnk_167@gmail.com",
+            "mother_name": "Swizen",
+            "m_contact_no": "+1 4565 345461",
+            "m_occupation": "Bank Manager",
+            "father_name": "Robert",
+            "f_contact_no": "+1 2576 594253",
+            "f_occupation": "IT Engineer",
+            "result":{
+                    "English":{"Marks": 86, "Grade": "A"},
+                    "Hindi":{"Marks": 78, "Grade": "B+"},
+                    "Science":{"Marks": 88, "Grade": "A"},
+                    "Maths":{"Marks": 96, "Grade": "A++"},
+                    "SST":{"Marks": 82, "Grade": "A"},
+                    "Computer":{"Marks": 70, "Grade": "B"},
+                    "Art":{"Marks": 76, "Grade": "B+"},
+                    "PT":{"Marks": 80, "Grade": "A"}
+                }
+        },
+        {
+            "id":"SF_1271",
+            "username": "Julie Weese",
+            "password":"Julie224*",
+            "class":"6",
+            "section":"B",
+            "academic_year": "2022",
+            "gender": "Female",
+            "blood":"AB-",
+            "dob":"2012-04-29",
+            "address":"828 Cobblestone Dr Troy, Ohio(OH), United States- 45373",
+            "email":"juliew_198@gmail.com",
+            "mother_name": "Jessie",
+            "m_contact_no": "(724) 342-2721",
+            "m_occupation": "Appraiser, Real Estate",
+            "father_name": "David",
+            "f_contact_no": "(724) 347-0715",
+            "f_occupation": "Microbiologist",
+            "result":{
+                    "English":{"Marks": 92, "Grade": "A+"},
+                    "Hindi":{"Marks": 88, "Grade": "A"},
+                    "Science":{"Marks": 90, "Grade": "A+"},
+                    "Maths":{"Marks": 99, "Grade": "A++"},
+                    "SST":{"Marks": 94, "Grade": "A+"},
+                    "Computer":{"Marks": 85, "Grade": "A"},
+                    "Art":{"Marks": 96, "Grade": "A++"},
+                    "PT":{"Marks": 89, "Grade": "A"}
+                }
+        },
+        {
+            "id":"SF_1087",
+            "username": "Christopher Nelson",
+            "password":"Chris555*",
+            "class":"5",
+            "section":"B",
+            "academic_year": "2022",
+            "gender": "Male",
+            "blood":"A-",
+            "dob":"2013-06-05",
+            "address":"1112 Albright Mckay Rd NE Brookfield, Ohio(OH), United States- 44403",
+            "email":"Chriz54@gmail.com",
+            "mother_name": "Teresa",
+            "m_contact_no": "(724) 449-8374",
+            "m_occupation": "Public Relations Specialist",
+            "father_name": "Richard",
+            "f_contact_no": "(724) 799-8581",
+            "f_occupation": "Medical and Health Services Manager",
+            "result":{
+                    "English":{"Marks": 66, "Grade": "C+"},
+                    "Hindi":{"Marks": 72, "Grade": "B"},
+                    "Science":{"Marks": 78, "Grade": "B+"},
+                    "Maths":{"Marks": 86, "Grade": "A"},
+                    "SST":{"Marks": 62, "Grade": "C"},
+                    "Computer":{"Marks": 97, "Grade": "A++"},
+                    "Art":{"Marks": 86, "Grade": "A"},
+                    "PT":{"Marks": 99, "Grade": "A++"}
+                }
+        }
+    ]
+}
